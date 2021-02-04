@@ -1,2 +1,64 @@
 $black: #000;
 $gray: #666;
+$grayLight: #ccc;
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 130px;
+    padding: 0 7.2% 0 14.4%;
+    .logo {
+        position: relative;
+        .logo__rectangle {
+            width: 12px;
+            height: 50px;
+            border: 3px solid $grayLight;
+            border-radius: 10px;
+        }
+        .logo__letter {
+            text-decoration: none;
+            position: absolute;
+            font-size: 14px;
+            color: $black;
+        }
+        .logo__letter_l {
+            top: 0;
+            left: -13px;
+        }
+        .logo__letter_nt {
+            top: 0;
+            right: -15px;
+        }
+        .logo__letter_d {
+            bottom: 0;
+            left: -13px;
+        }
+        .logo__letter_nb {
+            bottom: 0;
+            right: -15px;
+        }
+    }
+}
+
+.navigation__links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    .navigation__item {
+        box-sizing: border-box;
+        width: 10vw;
+    }
+}
+
+.navigation__link {
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $gray;
+    font-size: 14px;
+    &:hover {
+        font-weight: bold;
+    }
+}
