@@ -12,7 +12,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 120px;
+  height: 100px;
   padding: 0 7.2vw 0 17.5vw;
   background-color: rgba(255, 255, 255, 0.9);
   position: fixed;
@@ -21,6 +21,7 @@
 
 .header .logo {
   position: relative;
+  cursor: pointer;
 }
 
 .header .logo .logo__rectangle {
@@ -87,7 +88,6 @@
 }
 
 .lead {
-  width: 100%;
   position: relative;
   display: -ms-grid;
   display: grid;
@@ -130,5 +130,90 @@
 
 .lead__img {
   width: 100%;
+}
+
+@media screen and (max-width: 1100px) {
+  .navigation__links .navigation__item {
+    width: 14vw;
+  }
+  .lead {
+    padding-top: 85px;
+    -ms-grid-columns: 275px 1fr;
+        grid-template-columns: 275px 1fr;
+    min-height: 435px;
+  }
+  .lead__title {
+    font-size: 18.7px;
+    padding-left: 77px;
+    padding-bottom: 6.5px;
+  }
+  .lead__title .lead__word {
+    width: 110px;
+    bottom: -7.7px;
+    left: 160px;
+    font-size: 94px;
+    letter-spacing: 10px;
+  }
+  .header {
+    height: 80px;
+  }
+  .logo {
+    position: relative;
+  }
+  .logo .logo__rectangle {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 10px;
+    height: 40px;
+    border-radius: 8px;
+  }
+  .logo .logo__letter {
+    font-size: 12px;
+  }
+  .lead__img {
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: -50px;
+       object-position: -50px;
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .header {
+    padding: 0 40px 0 40px;
+  }
+  .navigation__links .navigation__item {
+    width: 18.3vw;
+  }
+  .navigation__link {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .navigation {
+    display: none;
+  }
+  .logo {
+    margin: auto;
+  }
+  .lead {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    min-height: 70vw;
+  }
+  .lead__title {
+    font-size: 5vw;
+    padding-left: 5vw;
+    padding-bottom: 4vw;
+  }
+  .lead__title .lead__word {
+    width: 20vw;
+    bottom: -1.4vw;
+    left: 29vw;
+    font-size: 15vw;
+    letter-spacing: 1.8vw;
+  }
 }
 /*# sourceMappingURL=index.css.map */
