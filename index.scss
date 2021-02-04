@@ -3,11 +3,17 @@ $gray: #666;
 $grayLight: #ccc;
 
 .header {
+    box-sizing: border-box;
+    width: 100vw;
+    position: inherit;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 130px;
-    padding: 0 7.2% 0 14.4%;
+    min-height: 120px;
+    padding: 0 7.2vw 0 17.5vw;
+    background-color: rgba($color: #fff, $alpha: 0.9);
+    position: fixed;
+    z-index: 1;
     .logo {
         position: relative;
         .logo__rectangle {
@@ -58,7 +64,45 @@ $grayLight: #ccc;
     text-transform: uppercase;
     color: $gray;
     font-size: 14px;
+    letter-spacing: 2px;
     &:hover {
         font-weight: bold;
     }
+}
+
+.lead {
+    width: 100%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding-top: 120px;
+}
+
+.lead__title {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-size: 1.7vw;
+    font-weight: normal;
+    align-self: end;
+    justify-content: right;
+    margin: 0;
+    padding-left: 7vw;
+    padding-bottom: 0.6vw;
+    .lead__word {
+        box-sizing: border-box;
+        width: 10vw;
+        position: absolute;
+        bottom: -0.7vw;
+        right: 76vw;
+        font-size: 8.6vw;
+        display: inline-block;
+        font-style: normal;
+        text-transform: uppercase;
+        transform: rotate(-90deg);
+        letter-spacing: 10px;
+    }
+}
+
+.lead__img {
+    width: 100%;
 }
