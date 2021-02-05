@@ -1,0 +1,35 @@
+.lead__word {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 10vw;
+    position: absolute;
+    bottom: -0.7vw;
+    right: 76vw;
+    font-size: 8.6vw;
+    display: inline-block;
+    font-style: normal;
+    text-transform: uppercase;
+    -webkit-transform: rotate(-90deg);
+            transform: rotate(-90deg);
+    letter-spacing: 10px;
+}
+
+@media screen and (max-width: 1100px) {
+  .lead__word {
+    width: 110px;
+    bottom: -7.7px;
+    left: 160px;
+    font-size: 94px;
+    letter-spacing: 10px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .lead__word {
+    width: 20vw;
+    bottom: -1.4vw;
+    left: 29vw;
+    font-size: 15vw;
+    letter-spacing: 1.8vw;
+  }
+}

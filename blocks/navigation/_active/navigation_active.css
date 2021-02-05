@@ -1,0 +1,5 @@
+@media screen and (max-width: 550px) {
+    .navigation_active {
+      display: block;
+    }
+}

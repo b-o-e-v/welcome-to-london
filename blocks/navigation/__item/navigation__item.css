@@ -1,0 +1,25 @@
+.navigation__item {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 10vw;
+}
+
+@media screen and (max-width: 1100px) {
+    .navigation__item {
+      width: 14vw;
+    }
+}
+
+@media screen and (max-width: 786px) {
+  .navigation__item {
+    width: 18.3vw;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .navigation__item {
+    width: 100vw;
+    text-align: center;
+    margin-top: 20px;
+  }
+}

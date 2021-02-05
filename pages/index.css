@@ -3,5 +3,31 @@
 @import url(../fonts/avenir/avenir.css);
 /* БЛОКИ */
 @import url(../blocks/root/root.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/navigation/navigation.css);
+@import url(../blocks/lead/lead.css);
+@import url();
+
 /* ЭЛЕМЕНТЫ */
+    /* logo */
+@import url(../blocks/logo/__letter/logo__letter.css);
+@import url(../blocks/logo/__rectangle/logo__rectangle.css);
+    /* navigation */
+@import url(../blocks/navigation/__links/navigation__links.css);
+@import url(../blocks/navigation/__item/navigation__item.css);
+@import url(../blocks/navigation/__link/navigation__link.css);
+    /* lead */
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__word/lead__word.css);
+@import url(../blocks/lead/__img/lead__img.css);
+
 /* МОДИФИКАТОРЫ */
+    /* logo */
+@import url(../blocks/logo/__letter/_l/logo__letter_l.css);
+@import url(../blocks/logo/__letter/_nt/logo__letter_nt.css);
+@import url(../blocks/logo/__letter/_d/logo__letter_d.css);
+@import url(../blocks/logo/__letter/_nb/logo__letter_nb.css);
+    /* navigation */
+@import url(../blocks/navigation/_active/navigation_active.css);
+@import url();

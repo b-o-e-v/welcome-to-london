@@ -1,0 +1,31 @@
+.lead__title {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-size: 1.7vw;
+    font-weight: normal;
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
+    -webkit-box-pack: right;
+        -ms-flex-pack: right;
+            justify-content: right;
+    margin: 0;
+    padding-left: 7vw;
+    padding-bottom: 0.6vw;
+}
+
+@media screen and (max-width: 1100px) {
+  .lead__title {
+    font-size: 18.7px;
+    padding-left: 77px;
+    padding-bottom: 6.5px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .lead__title {
+    font-size: 5vw;
+    padding-left: 5vw;
+    padding-bottom: 4vw;
+  }
+}
