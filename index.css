@@ -17,6 +17,8 @@
   background-color: rgba(255, 255, 255, 0.9);
   position: fixed;
   z-index: 1;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .header .logo {
@@ -201,7 +203,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 100%;
+    height: 30%;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
@@ -221,10 +223,11 @@
   .navigation__links .navigation__item {
     width: 100vw;
     text-align: center;
+    margin-top: 10px;
   }
   .navigation__link {
     width: 100%;
-    font-size: 12px;
+    font-size: 20px;
   }
   .logo {
     margin: 15px auto;
