@@ -171,14 +171,21 @@ $grayLight: #ccc;
         display: none;
     }
     .header {
+        cursor: pointer;
+        padding: 0;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
         &:hover {
-            padding: 0;
-            flex-direction: column;
-            height: 30%;
-            justify-content: start;
-            align-items: flex-start;
+            height: 250px;
         }
         &:hover > .navigation {
+            display: block;
+        }
+        &:active {
+            height: 250px;
+        }
+        &:active > .navigation {
             display: block;
         }
     }

@@ -197,13 +197,13 @@
   .navigation {
     display: none;
   }
-  .header:hover {
+  .header {
+    cursor: pointer;
     padding: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    height: 30%;
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
@@ -211,7 +211,16 @@
         -ms-flex-align: start;
             align-items: flex-start;
   }
+  .header:hover {
+    height: 250px;
+  }
   .header:hover > .navigation {
+    display: block;
+  }
+  .header:active {
+    height: 250px;
+  }
+  .header:active > .navigation {
     display: block;
   }
   .navigation__links {
