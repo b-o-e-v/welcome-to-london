@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 1100px) {
   .lead {
-    padding-top: 85px;
+    padding-top: 100px;
     -ms-grid-columns: 275px 1fr;
     grid-template-columns: 275px 1fr;
     min-height: 435px;

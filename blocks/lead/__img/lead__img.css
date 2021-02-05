@@ -7,13 +7,13 @@
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
-    -o-object-position: -50px;
-       object-position: -50px;
   }
 }
 
 @media screen and (max-width: 550px) {
   .lead__img {
     height: 70vw;
+    -o-object-position: -50px;
+       object-position: -50px;
   }
 }
