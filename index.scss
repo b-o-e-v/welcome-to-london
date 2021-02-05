@@ -1,3 +1,89 @@
 $black: #000;
 $gray: #666;
 $grayLight: #ccc;
+
+.about {
+    padding-top: 120px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.description {
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3vw;
+}
+
+.description__title {
+    margin: 0;
+    font-size: 3.4vw;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: normal;
+    text-align: right;
+}
+
+.description__paragraph {
+    margin: 0;
+    max-width: 500px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: $gray;
+}
+
+.history {
+    padding-top: 100px;
+    grid-column: 2;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.history__title {
+    font-family: 'Playfair Display';
+    font-size: 2.2vw;
+    font-weight: normal;
+}
+
+.history__about {
+    margin: 0;
+    text-transform: uppercase;
+    color: $gray;
+    font-size: 14px;
+}
+
+.history__title_more {
+    margin: 0;
+    font-size: 3.6vw;
+}
+
+.history__paragraph {
+    margin: 0;
+    max-width: 500px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: $gray;
+}
+
+.history__paragrap_more {
+    padding: 2vw 5vw 0 2vw;
+}
+
+.history__roman {
+    grid-column: 1 / 3;
+}
+
+.history__pre {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.history__par {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.history__img {
+    width: 100%;
+    grid-row: 1 / 3;
+}
