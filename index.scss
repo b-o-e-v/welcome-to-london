@@ -170,13 +170,15 @@ $grayLight: #ccc;
     .navigation {
         display: none;
     }
+    .nav_active {
+        display: block;
+    }
     .header {
         cursor: pointer;
         padding: 0;
         flex-direction: column;
         justify-content: start;
         align-items: flex-start;
-        border-radius: 0;
     }
     .navigation__links {
         flex-direction: column;
@@ -193,10 +195,8 @@ $grayLight: #ccc;
 
     .logo {
         margin: 15px auto;
-        &:hover + .navigation {
-            display: block;
-        }
     }
+
     .lead {
         grid-template-columns: 1fr 1fr;
         min-height: 70vw;

@@ -197,6 +197,9 @@
   .navigation {
     display: none;
   }
+  .nav_active {
+    display: block;
+  }
   .header {
     cursor: pointer;
     padding: 0;
@@ -210,7 +213,6 @@
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    border-radius: 0;
   }
   .navigation__links {
     -webkit-box-orient: vertical;
@@ -229,9 +231,6 @@
   }
   .logo {
     margin: 15px auto;
-  }
-  .logo:hover + .navigation {
-    display: block;
   }
   .lead {
     -ms-grid-columns: 1fr 1fr;
