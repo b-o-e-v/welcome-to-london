@@ -172,9 +172,21 @@ $grayLight: #ccc;
     }
 }
 
+@media screen and (max-width: 600px) {
+    .history__roman {
+        grid-row: 2;
+    }
+}
+
 .history__pre {
     grid-column: 1;
     grid-row: 2;
+}
+
+@media screen and (max-width: 600px) {
+    .history__pre {
+        grid-row: 3;
+    }
 }
 
 .history__par {
@@ -186,6 +198,12 @@ $grayLight: #ccc;
     .history__par {
         grid-column: 1;
         grid-row: 3;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .history__par {
+        grid-row: 4;
     }
 }
 

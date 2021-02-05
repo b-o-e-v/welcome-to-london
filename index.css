@@ -182,11 +182,25 @@
   }
 }
 
+@media screen and (max-width: 600px) {
+  .history__roman {
+    -ms-grid-row: 2;
+    grid-row: 2;
+  }
+}
+
 .history__pre {
   -ms-grid-column: 1;
   grid-column: 1;
   -ms-grid-row: 2;
   grid-row: 2;
+}
+
+@media screen and (max-width: 600px) {
+  .history__pre {
+    -ms-grid-row: 3;
+    grid-row: 3;
+  }
 }
 
 .history__par {
@@ -202,6 +216,13 @@
     grid-column: 1;
     -ms-grid-row: 3;
     grid-row: 3;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .history__par {
+    -ms-grid-row: 4;
+    grid-row: 4;
   }
 }
 
