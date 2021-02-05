@@ -7,6 +7,6 @@ header.onclick = function() {
         header.style.height = "290px";
     } else {
         nav.classList.remove("nav_active");
-        header.style.height = "80px";
+        header.style.height = "";
     }
 };
