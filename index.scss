@@ -168,8 +168,32 @@ $grayLight: #ccc;
     .navigation {
         display: none;
     }
+    .header {
+        &:hover {
+            padding: 0;
+            flex-direction: column;
+            height: 100%;
+            justify-content: start;
+            align-items: flex-start;
+        }
+        &:hover > .navigation {
+            display: block;
+        }
+    }
+    .navigation__links {
+        flex-direction: column;
+        .navigation__item {
+            width: 100vw;
+            text-align: center;
+        }
+    }
+    .navigation__link {
+        width: 100%;
+        font-size: 12px;
+    }
+
     .logo {
-        margin: auto;
+        margin: 15px auto;
     }
     .lead {
         grid-template-columns: 1fr 1fr;
