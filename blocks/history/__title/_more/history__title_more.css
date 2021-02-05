@@ -1,0 +1,16 @@
+.history__title_more {
+    margin: 0;
+    font-size: 3.6vw;
+}
+
+@media screen and (min-width: 1660px) {
+  .history__title_more {
+    font-size: 57.5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .history__title_more {
+    font-size: 21.5px;
+  }
+}

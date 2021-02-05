@@ -1,0 +1,17 @@
+.history__title {
+    font-family: 'Playfair Display';
+    font-size: 2.2vw;
+    font-weight: normal;
+}
+
+@media screen and (min-width: 1660px) {
+  .history__title {
+    font-size: 35.1px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .history__title {
+    font-size: 16px;
+  }
+}

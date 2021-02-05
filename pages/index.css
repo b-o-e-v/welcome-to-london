@@ -8,6 +8,9 @@
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/navigation/navigation.css);
 @import url(../blocks/lead/lead.css);
+@import url(../blocks/description/description.css);
+@import url(../blocks/history/history.css);
+@import url(../blocks/about/about.css);
 @import url();
 
 /* ЭЛЕМЕНТЫ */
@@ -22,6 +25,17 @@
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__word/lead__word.css);
 @import url(../blocks/lead/__img/lead__img.css);
+    /* description */
+@import url(../blocks/description/__title/description__title.css);
+@import url(../blocks/description/__paragraph/description__paragraph.css);
+    /* history */ 
+@import url(../blocks/history/__title/history__title.css);
+@import url(../blocks/history/__paragraph/history__paragraph.css);
+@import url(../blocks/history/__about/history__about.css);
+@import url(../blocks/history/__pre/history__pre.css);
+@import url(../blocks/history/__par/history__par.css);
+@import url(../blocks/history/__img/history__img.css);
+@import url(../blocks/history/__roman/history__roman.css);
 
 /* МОДИФИКАТОРЫ */
     /* logo */
@@ -31,4 +45,8 @@
 @import url(../blocks/logo/__letter/_nb/logo__letter_nb.css);
     /* navigation */
 @import url(../blocks/navigation/_active/navigation_active.css);
-@import url();
+    /* history */ 
+@import url(../blocks/history/__title/_more/history__title_more.css);
+@import url(../blocks/history/__paragraph/_more/history__paragrap_more.css);
+
+

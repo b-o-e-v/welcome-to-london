@@ -1,0 +1,9 @@
+.history__paragrap_more {
+    padding: 35px 10px 0 5px;
+}
+
+@media screen and (max-width: 770px) {
+  .history__paragrap_more {
+    padding: 0;
+  }
+}

@@ -1,0 +1,15 @@
+.description__paragraph {
+    padding-right: 20px;
+    margin: 0;
+    max-width: 500px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666;
+}
+
+@media screen and (max-width: 600px) {
+  .description__paragraph {
+    padding: 0;
+    max-width: 100%;
+  }
+}

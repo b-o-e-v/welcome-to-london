@@ -1,0 +1,21 @@
+.description__title {
+    margin: 0;
+    font-size: 3.4vw;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: normal;
+    text-align: right;
+}
+
+@media screen and (min-width: 1660px) {
+  .description__title {
+    font-size: 54.5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .description__title {
+    font-size: 20px;
+    text-align: center;
+  }
+}
