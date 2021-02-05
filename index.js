@@ -4,7 +4,7 @@ let header = document.getElementById("header");
 header.onclick = function() {
     if (nav.className === "navigation" && document.body.clientWidth <= 550) {
         nav.classList.add("nav_active");
-        header.style.height = "290px";
+        header.style.height = "70%";
     } else {
         nav.classList.remove("nav_active");
         header.style.height = "";

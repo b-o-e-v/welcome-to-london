@@ -195,6 +195,7 @@
 
 @media screen and (max-width: 550px) {
   .navigation {
+    margin-top: 40px;
     display: none;
   }
   .nav_active {
