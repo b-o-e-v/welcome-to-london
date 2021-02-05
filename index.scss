@@ -176,25 +176,14 @@ $grayLight: #ccc;
         flex-direction: column;
         justify-content: start;
         align-items: flex-start;
-        &:hover {
-            height: 250px;
-        }
-        &:hover > .navigation {
-            display: block;
-        }
-        &:active {
-            height: 250px;
-        }
-        &:active > .navigation {
-            display: block;
-        }
+        border-radius: 0;
     }
     .navigation__links {
         flex-direction: column;
         .navigation__item {
             width: 100vw;
             text-align: center;
-            margin-top: 10px;
+            margin-top: 20px;
         }
     }
     .navigation__link {
@@ -204,6 +193,9 @@ $grayLight: #ccc;
 
     .logo {
         margin: 15px auto;
+        &:hover + .navigation {
+            display: block;
+        }
     }
     .lead {
         grid-template-columns: 1fr 1fr;
