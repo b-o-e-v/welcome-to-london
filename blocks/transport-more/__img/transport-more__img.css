@@ -1,0 +1,10 @@
+.transport-more__img {
+    width: 100%;
+  }
+  
+@media screen and (max-width: 600px) {
+  .transport-more__img {
+    width: 100%;
+    margin: auto;
+  }
+}

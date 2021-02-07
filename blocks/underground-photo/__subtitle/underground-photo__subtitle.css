@@ -1,0 +1,27 @@
+.underground-photo__subtitle {
+    margin: 0 0 60px 95px;
+    max-width: 450px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #fff;
+}
+
+@media screen and (max-width: 1320px) {
+  .underground-photo__subtitle {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .underground-photo__subtitle {
+    margin-bottom: 20px;
+    max-width: 350px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .underground-photo__subtitle {
+    margin: 10px 20px;
+    max-width: 400px;
+  }
+}

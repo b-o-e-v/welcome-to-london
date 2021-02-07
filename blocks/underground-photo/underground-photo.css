@@ -1,0 +1,29 @@
+.underground-photo {
+    background-image: url(../../images/underground-photo.jpg);
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1320px) {
+  .underground-photo {
+    background-size: 720px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .underground-photo {
+    background-size: 565px;
+  }
+}
+
+@media screen and (max-width: 722px) {
+  .underground-photo {
+    background-size: cover;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .underground-photo {
+    height: 100vw;
+    background-size: cover;
+  }
+}

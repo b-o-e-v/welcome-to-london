@@ -1,0 +1,26 @@
+.underground-photo__title {
+    font-family: 'Playfair Display';
+    color: #fff;
+    font-size: 50px;
+    font-weight: normal;
+    margin: 340px 5px 35px;
+}
+
+@media screen and (max-width: 1320px) {
+  .underground-photo__title {
+    margin-top: 270px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .underground-photo__title {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .underground-photo__title {
+    margin-top: 150px;
+    margin-bottom: 20px;
+  }
+}

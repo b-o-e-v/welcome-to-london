@@ -1,0 +1,15 @@
+.transport-underground__paragraph {
+    margin: 0 0;
+    max-width: 450px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+}
+
+@media screen and (max-width: 722px) {
+  .transport-underground__paragraph {
+    max-width: 100%;
+  }
+}
