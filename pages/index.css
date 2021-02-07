@@ -14,6 +14,8 @@
 @import url(../blocks/transport-underground/transport-underground.css);
 @import url(../blocks/transport-more/transport-more.css);
 @import url(../blocks/underground-photo/underground-photo.css);
+@import url(../blocks/facts/facts.css);
+@import url(../blocks/nights/nights.css);
 
 
 /* ЭЛЕМЕНТЫ */
@@ -52,7 +54,17 @@
     /* underground-photo */ 
 @import url(../blocks/underground-photo/__title/underground-photo__title.css);
 @import url(../blocks/underground-photo/__subtitle/underground-photo__subtitle.css);
-
+    /* facts */ 
+@import url(../blocks/facts/__l/facts__l.css);
+    /* fact */ 
+@import url(../blocks/fact/__title/fact__title.css);
+@import url(../blocks/fact/__subtitle/fact__subtitle.css);
+@import url(../blocks/fact/__paragraph/fact__paragraph.css);
+    /* nights */ 
+@import url(../blocks/nights/__title/nights__title.css);
+@import url(../blocks/nights/__subtitle/nights__subtitle.css);
+@import url(../blocks/nights/__footnote/nights__footnote.css);
+      
 
 /* МОДИФИКАТОРЫ */
     /* logo */
@@ -69,5 +81,8 @@
 @import url(../blocks/transport-more/__img/_bus/transport-more__img_bus.css);
 @import url(../blocks/transport-more/__img/_tram/transport-more__img_tram.css);
 @import url(../blocks/transport-more/__img/_car/transport-more__img_car.css);
+    /* facts */ 
+@import url(../blocks/fact/__paragraph/_more/fact__paragraph_more.css);
+
 
 

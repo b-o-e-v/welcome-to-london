@@ -1,0 +1,12 @@
+.nights__title {
+    font-family: 'Playfair Display';
+    font-weight: normal;
+    font-size: 65px;
+    margin: 0;
+}
+
+@media screen and (max-width: 750px) {
+  .nights__title {
+    font-size: 40px;
+  }
+}

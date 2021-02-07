@@ -1,0 +1,16 @@
+.fact__paragraph {
+    max-width: 500px;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #666;
+    margin: 100px 0 20px;
+    padding-right: 25px;
+}
+
+@media screen and (max-width: 900px) {
+  .fact__paragraph {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}

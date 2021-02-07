@@ -1,0 +1,22 @@
+.fact__paragraph_more {
+    margin-top: 26px;
+    text-align: right;
+    max-width: 180px;
+    float: right;
+}
+
+@media screen and (max-width: 900px) {
+  .fact__paragraph_more {
+    margin-top: 26px;
+    text-align: right;
+    max-width: 50%;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .fact__paragraph_more {
+    margin-top: 20px;
+    max-width: 80%;
+  }
+}
