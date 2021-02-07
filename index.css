@@ -112,4 +112,103 @@
     background-position: center;
   }
 }
+
+.nights {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 150px;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  background-image: url(./images/nights.jpg);
+  color: #fff;
+  padding: 40px 80px;
+  min-height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: relative;
+}
+
+@media screen and (max-width: 1100px) {
+  .nights {
+    margin-top: 80px;
+    padding: 4% 6%;
+    background-size: 100vw;
+    height: 54vw;
+    min-height: auto;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .nights {
+    margin-top: 30px;
+    background-size: auto;
+    min-height: 350px;
+    padding: 20px 30px;
+  }
+}
+
+.nights__footnote {
+  font-family: 'Playfair Display';
+  font-size: 23px;
+  position: absolute;
+  top: 400px;
+  left: -220px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  color: #000;
+}
+
+@media screen and (max-width: 1100px) {
+  .nights__footnote {
+    top: 6.36vw;
+    left: 59vw;
+    font-size: 23px;
+    color: #fff;
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .nights__footnote {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nights__footnote {
+    font-size: 12px;
+    left: 45vw;
+  }
+}
+
+.nights__title {
+  font-family: 'Playfair Display';
+  font-weight: normal;
+  font-size: 65px;
+  margin: 0;
+}
+
+@media screen and (max-width: 750px) {
+  .nights__title {
+    font-size: 40px;
+  }
+}
+
+.nights__subtitle {
+  max-width: 550px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #fff;
+  margin: 30px 0 0;
+}
 /*# sourceMappingURL=index.css.map */
