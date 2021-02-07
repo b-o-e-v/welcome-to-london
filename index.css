@@ -1,4 +1,5 @@
 .travel {
+  padding-top: 30px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 3fr;
@@ -9,6 +10,7 @@
   .travel {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+    padding-top: 0;
   }
 }
 
@@ -17,7 +19,7 @@
   grid-column: 2;
   font-family: 'Playfair Display';
   font-weight: normal;
-  font-size: 90px;
+  font-size: 80px;
   margin: 50px 0 30px;
 }
 
@@ -36,7 +38,7 @@
 .subtitle {
   -ms-grid-column: 2;
   grid-column: 2;
-  max-width: 650px;
+  max-width: 550px;
   font-size: 14px;
   line-height: 1.7;
   color: #666;
@@ -192,6 +194,163 @@
 @media screen and (max-width: 500px) {
   .card__subtitle {
     display: none;
+  }
+}
+
+.book {
+  padding-top: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+}
+
+@media screen and (max-width: 1100px) {
+  .book {
+    -ms-grid-columns: 0 1fr;
+        grid-template-columns: 0 1fr;
+  }
+}
+
+.contact {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  margin: 40px 0 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 2.5fr;
+      grid-template-columns: 1fr 2.5fr;
+}
+
+@media screen and (max-width: 1100px) {
+  .contact {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact {
+    margin: 70px 0 0 70px;
+    -ms-grid-columns: 50vw;
+        grid-template-columns: 50vw;
+  }
+}
+
+.contact__list {
+  list-style-type: none;
+  padding: 0;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666;
+}
+
+.contact__title {
+  margin: 0;
+  font-family: 'Playfair Display';
+  font-weight: normal;
+  font-size: 25px;
+}
+
+.contact__title_more {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  -ms-grid-row: 1;
+  grid-row: 1;
+}
+
+@media screen and (max-width: 500px) {
+  .contact__title_more {
+    -ms-grid-column: 1;
+    grid-column: 1;
+    -ms-grid-row: 3;
+    grid-row: 3;
+  }
+}
+
+.book-a-trip {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media screen and (max-width: 1100px) {
+  .book-a-trip {
+    width: 70vw;
+    margin: 60px auto 0;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .book-a-trip {
+    width: 90vw;
+    margin: 40px auto 0;
+  }
+}
+
+.book-a-trip__line {
+  margin: 0;
+  width: 600px;
+  height: 1px;
+  border: none;
+  background-color: #666;
+}
+
+@media screen and (max-width: 1100px) {
+  .book-a-trip__line {
+    width: 45vw;
+    margin-left: 20px;
+  }
+}
+
+.book-a-trip__button {
+  background-color: white;
+  border: 1px solid #666;
+  border-radius: 15px;
+  padding: 10px 15px;
+  margin-left: 50px;
+  cursor: pointer;
+  outline: none;
+}
+
+@media screen and (max-width: 500px) {
+  .book-a-trip__button {
+    margin-left: 20px;
+  }
+}
+
+.book-a-trip__button:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #000;
+  opacity: 0.5;
+  color: #fff;
+}
+
+.footer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+}
+
+.footer__paragraph {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  text-align: end;
+  margin-top: 150px;
+  margin-right: 100px;
+}
+
+@media screen and (max-width: 800px) {
+  .footer__paragraph {
+    margin-right: 20px;
   }
 }
 /*# sourceMappingURL=index.css.map */
