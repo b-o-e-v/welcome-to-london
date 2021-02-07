@@ -1,2 +1,197 @@
+.travel {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+}
 
+@media screen and (max-width: 1100px) {
+  .travel {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+}
+
+.title {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  font-family: 'Playfair Display';
+  font-weight: normal;
+  font-size: 90px;
+  margin: 50px 0 30px;
+}
+
+@media screen and (max-width: 1100px) {
+  .title {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 50px;
+  }
+}
+
+.subtitle {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  max-width: 650px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #666;
+  margin: 0;
+  padding-right: 25px;
+}
+
+@media screen and (max-width: 1100px) {
+  .subtitle {
+    margin-left: 20px;
+  }
+}
+
+.cards {
+  margin-top: 80px;
+  margin-right: 30px;
+  -ms-grid-column: 2;
+  grid-column: 2;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  -ms-grid-rows: (180px)[3];
+      grid-template-rows: repeat(3, 180px);
+  gap: 15px 30px;
+  color: #fff;
+}
+
+@media screen and (max-width: 1100px) {
+  .cards {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .cards {
+    -ms-grid-rows: (180px)[2];
+        grid-template-rows: repeat(2, 180px);
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .cards {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+  }
+}
+
+.card_london-eye {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  grid-row: 1 / 4;
+  background-image: url(./images/card_london-eye.jpg);
+  display: -ms-grid;
+  display: grid;
+}
+
+@media screen and (max-width: 700px) {
+  .card_london-eye {
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+}
+
+.card {
+  background-size: cover;
+}
+
+.card_tower-bridge {
+  background-image: url(./images/card_tower-bridge.jpg);
+  background-repeat: no-repeat;
+}
+
+.card_big-ben {
+  background-image: url(./images/card_big-ben.jpg);
+  background-repeat: no-repeat;
+}
+
+.card_museums {
+  background-image: url(./images/card_museums.jpg);
+  background-repeat: no-repeat;
+}
+
+.card__title {
+  font-family: 'Playfair Display';
+  font-weight: normal;
+  font-size: 23px;
+  text-align: right;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .card__title {
+    margin-bottom: 50vw;
+  }
+}
+
+.card__title_big-ben {
+  color: #000;
+}
+
+.card__text {
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .card__text {
+    margin: 0;
+  }
+}
+
+.card__title_london-eye {
+  font-size: 45px;
+  margin: 10px 40px;
+}
+
+@media screen and (max-width: 700px) {
+  .card__title_london-eye {
+    font-size: 23px;
+    margin: 23px 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card__title_london-eye {
+    margin-bottom: 50vw;
+  }
+}
+
+.card__subtitle {
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 0;
+  text-align: right;
+  margin: 0 40px;
+}
+
+@media screen and (max-width: 700px) {
+  .card__subtitle {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card__subtitle {
+    display: none;
+  }
+}
 /*# sourceMappingURL=index.css.map */
