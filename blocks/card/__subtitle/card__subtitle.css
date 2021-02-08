@@ -1,0 +1,19 @@
+.card__subtitle {
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0;
+    text-align: right;
+    margin: 0 40px;
+}
+
+@media screen and (max-width: 700px) {
+  .card__subtitle {
+    visibility: hidden;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card__subtitle {
+    display: none;
+  }
+}

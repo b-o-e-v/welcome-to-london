@@ -1,6 +1,8 @@
 /* ШРИФТЫ */
 @import url(../fonts/playfair/playfair.css);
 @import url(../fonts/avenir/avenir.css);
+
+
 /* БЛОКИ */
 @import url(../blocks/root/root.css);
 @import url(../blocks/page/page.css);
@@ -16,6 +18,15 @@
 @import url(../blocks/underground-photo/underground-photo.css);
 @import url(../blocks/facts/facts.css);
 @import url(../blocks/nights/nights.css);
+@import url(../blocks/title/title.css);
+@import url(../blocks/subtitle/subtitle.css);
+@import url(../blocks/travel/travel.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/card/card.css);
+@import url(../blocks/book/book.css);
+@import url(../blocks/book-a-trip/book-a-trip.css);
+@import url(../blocks/contact/contact.css);
+@import url(../blocks/footer/footer.css);
 
 
 /* ЭЛЕМЕНТЫ */
@@ -64,7 +75,19 @@
 @import url(../blocks/nights/__title/nights__title.css);
 @import url(../blocks/nights/__subtitle/nights__subtitle.css);
 @import url(../blocks/nights/__footnote/nights__footnote.css);
-      
+    /* card */ 
+@import url(../blocks/card/__title/card__title.css);
+@import url(../blocks/card/__subtitle/card__subtitle.css);
+@import url(../blocks/card/__text/card__text.css);
+    /* contact */ 
+@import url(../blocks/contact/__title/contact__title.css);
+@import url(../blocks/contact/__list/contact__list.css);
+    /* book-a-trip */ 
+@import url(../blocks/book-a-trip/__line/book-a-trip__line.css);
+@import url(../blocks/book-a-trip/__button/book-a-trip__button.css);
+    /* footer */ 
+@import url(../blocks/footer/__paragraph/footer__paragraph.css);
+
 
 /* МОДИФИКАТОРЫ */
     /* logo */
@@ -83,6 +106,14 @@
 @import url(../blocks/transport-more/__img/_car/transport-more__img_car.css);
     /* facts */ 
 @import url(../blocks/fact/__paragraph/_more/fact__paragraph_more.css);
-
+    /* card */ 
+@import url(../blocks/card/_london-eye/card_london-eye.css);
+@import url(../blocks/card/_big-ben/card_big-ben.css);
+@import url(../blocks/card/_tower-bridge/card_tower-bridge.css);
+@import url(../blocks/card/_museums/card_museums.css);
+@import url(../blocks/card/__title/_big-ben/card__title_big-ben.css);
+@import url(../blocks/card/__title/_london-eye/card__title_london-eye.css);
+    /* contact */ 
+@import url(../blocks/contact/__title/_more/contact__title_more.css);
 
 

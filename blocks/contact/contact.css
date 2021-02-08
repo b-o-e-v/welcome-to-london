@@ -1,0 +1,25 @@
+.contact {
+    -ms-grid-column: 2;
+    grid-column: 2;
+    margin: 40px 0 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 2.5fr;
+        grid-template-columns: 1fr 2.5fr;
+}
+
+@media screen and (max-width: 1100px) {
+  .contact {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .contact {
+    margin: 70px 0 0 70px;
+    -ms-grid-columns: 50vw;
+        grid-template-columns: 50vw;
+  }
+}

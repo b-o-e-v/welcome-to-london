@@ -1,0 +1,17 @@
+.card__title_london-eye {
+    font-size: 45px;
+    margin: 10px 40px;
+}
+
+@media screen and (max-width: 700px) {
+  .card__title_london-eye {
+    font-size: 23px;
+    margin: 23px 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .card__title_london-eye {
+    margin-bottom: 50vw;
+  }
+}

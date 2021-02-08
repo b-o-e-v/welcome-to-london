@@ -1,0 +1,20 @@
+.title {
+    -ms-grid-column: 2;
+    grid-column: 2;
+    font-family: 'Playfair Display';
+    font-weight: normal;
+    font-size: 80px;
+    margin: 50px 0 30px;
+}
+  
+@media screen and (max-width: 1100px) {
+  .title {
+    margin-left: 20px;
+  }
+}
+  
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 50px;
+  }
+}

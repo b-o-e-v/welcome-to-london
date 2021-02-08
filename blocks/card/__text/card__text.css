@@ -1,0 +1,12 @@
+.card__text {
+    -ms-flex-item-align: end;
+        -ms-grid-row-align: end;
+        align-self: end;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .card__text {
+    margin: 0;
+  }
+}

@@ -1,0 +1,23 @@
+.book-a-trip__button {
+    background-color: white;
+    border: 1px solid #666;
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin-left: 50px;
+    cursor: pointer;
+    outline: none;
+}
+
+@media screen and (max-width: 500px) {
+  .book-a-trip__button {
+    margin-left: 20px;
+  }
+}
+
+.book-a-trip__button:hover {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #000;
+  opacity: 0.5;
+  color: #fff;
+}

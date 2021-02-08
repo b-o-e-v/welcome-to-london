@@ -1,0 +1,14 @@
+.book-a-trip__line {
+    margin: 0;
+    width: 600px;
+    height: 1px;
+    border: none;
+    background-color: #666;
+}
+
+@media screen and (max-width: 1100px) {
+  .book-a-trip__line {
+    width: 45vw;
+    margin-left: 20px;
+  }
+}

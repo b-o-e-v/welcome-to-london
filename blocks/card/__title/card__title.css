@@ -1,0 +1,13 @@
+.card__title {
+    font-family: 'Playfair Display';
+    font-weight: normal;
+    font-size: 23px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  .card__title {
+    margin-bottom: 50vw;
+  }
+}

@@ -24,3 +24,11 @@
     margin-bottom: 20px;
   }
 }
+
+@media screen and (max-width: 350px) {
+  .underground-photo__title {
+    font-size: 40px;
+    margin-top: 130px;
+    margin-bottom: 20px;
+  }
+}

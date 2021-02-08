@@ -1,0 +1,15 @@
+.card_london-eye {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 3;
+    grid-row: 1 / 4;
+    background-image: url(../../../images/card_london-eye.jpg);
+    display: -ms-grid;
+    display: grid;
+}
+
+@media screen and (max-width: 700px) {
+  .card_london-eye {
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+}
