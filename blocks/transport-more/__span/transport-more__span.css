@@ -1,4 +1,5 @@
 .transport-more__span {
+    display: block;
     font-family: 'Avenir';
     font-size: 12px;
     letter-spacing: 5px;
